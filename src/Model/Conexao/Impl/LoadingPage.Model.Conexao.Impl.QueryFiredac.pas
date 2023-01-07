@@ -4,7 +4,8 @@ interface
 
 uses
   FireDAC.Comp.Client,
-  LoadingPage.Model.Conexao.Interfaces;
+  LoadingPage.Model.Conexao.Interfaces,
+  LoadingPage.Model.Conexao.Impl.ConexaoFiredac;
 
 type
   TModelFiredacQuery = class(TInterfacedObject, iModelQuery)
