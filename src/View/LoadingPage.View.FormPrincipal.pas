@@ -16,14 +16,20 @@ uses
   Vcl.ExtCtrls,
   Vcl.Grids,
   Vcl.DBGrids,
-  Data.DB;
+  Data.DB,
+  LoadingPage.Controller.EntidadeController.Interfaces;
 type
   TFormPrincipal = class(TForm)
     pnlGrid: TPanel;
     pnlTopo: TPanel;
     btnCarregaMusicas: TButton;
+    dsMusicas: TDataSource;
+    DBGrid1: TDBGrid;
+    procedure FormCreate(Sender: TObject);
+    procedure btnCarregaMusicasClick(Sender: TObject);
   private
     { Private declarations }
+    FController: iControllerEntidade;
   public
     { Public declarations }
   end;
@@ -33,6 +39,23 @@ var
 
 implementation
 
+uses
+  LoadingPage.Controller.Impl.EntidadeController;
+
 {$R *.dfm}
+
+procedure TFormPrincipal.btnCarregaMusicasClick(Sender: TObject);
+begin
+  FController
+    .Entidade
+    .Musica
+    .DataSet(dsMusicas)
+    .Open;
+end;
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+  FController := TControllerEntidade.New;
+end;
 
 end.

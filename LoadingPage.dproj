@@ -112,6 +112,8 @@
         <DCCReference Include="src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas">
             <Form>$R *.res</Form>
         </DCCReference>
+        <DCCReference Include="src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas"/>
+        <DCCReference Include="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas"/>
         <None Include="database\Chinook.db"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

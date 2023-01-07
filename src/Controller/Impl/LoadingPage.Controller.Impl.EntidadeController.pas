@@ -15,7 +15,7 @@ type
       destructor Destroy; override;
       class function New: iControllerEntidade;
 
-      function Entidades: iModelEntidadeFactory;
+      function Entidade: iModelEntidadeFactory;
   end;
 
 implementation
@@ -35,14 +35,14 @@ begin
   inherited;
 end;
 
-function TControllerEntidade.Entidades: iModelEntidadeFactory;
+function TControllerEntidade.Entidade: iModelEntidadeFactory;
 begin
   Result := FModelEntidades;
 end;
 
 class function TControllerEntidade.New: iControllerEntidade;
 begin
-  Self.Create;
+  Result := Self.Create;
 end;
 
 end.

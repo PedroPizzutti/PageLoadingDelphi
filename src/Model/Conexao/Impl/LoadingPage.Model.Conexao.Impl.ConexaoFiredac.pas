@@ -3,7 +3,26 @@ unit LoadingPage.Model.Conexao.Impl.ConexaoFiredac;
 interface
 
 uses
+Data.DB,
+  FireDAC.Stan.Intf,
+  FireDAC.Stan.Option,
+  FireDAC.Stan.Error,
+  FireDAC.UI.Intf,
+  FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf,
+  FireDaC.DApt,
+  FireDAC.Stan.Def,
+  FireDAC.Stan.Pool,
+  FireDAC.Stan.Async,
+  FireDAC.Phys,
+  FireDAC.Phys.SQLite,
+  FireDAC.Phys.SQLiteDef,
+  FireDAC.Stan.ExprFuncs,
+  FireDAC.Phys.SQLiteWrapper.Stat,
+  FireDAC.VCLUI.Wait,
+  FireDAC.Comp.UI,
   FireDAC.Comp.Client,
+  System.SysUtils,
   LoadingPage.Model.Conexao.Interfaces;
 
 type

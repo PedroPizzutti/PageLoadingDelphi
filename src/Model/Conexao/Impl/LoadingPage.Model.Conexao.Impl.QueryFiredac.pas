@@ -3,6 +3,7 @@ unit LoadingPage.Model.Conexao.Impl.QueryFiredac;
 interface
 
 uses
+  Data.DB,
   FireDAC.Comp.Client,
   LoadingPage.Model.Conexao.Interfaces,
   LoadingPage.Model.Conexao.Impl.ConexaoFiredac;
@@ -47,7 +48,7 @@ end;
 
 class function TModelFiredacQuery.New(aValue: iModelConexao): iModelQuery;
 begin
-  Self.Create(aValue);
+  Result := Self.Create(aValue);
 end;
 
 function TModelFiredacQuery.Open(aSQL: String): iModelQuery;

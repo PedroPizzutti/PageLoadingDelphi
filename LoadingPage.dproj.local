@@ -2,38 +2,47 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/01/07 11:50:33.000.783,=D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 11:51:14.000.054,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\View\LoadingPage.View.FormPrincipal.dfm=D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/07 11:51:14.000.054,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\View\LoadingPage.View.FormPrincipal.pas=D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 11:51:23.000.724,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\LoadingPage.dproj=D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/07 11:51:14.000.054,D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\View\LoadingPage.View.FormPrincipal.dfm</Transaction>
+    <Transaction>2023/01/07 11:51:14.000.054,D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\View\LoadingPage.View.FormPrincipal.pas</Transaction>
+    <Transaction>2023/01/07 11:51:23.000.724,D:\Meus Documentos\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\LoadingPage.dproj</Transaction>
     <Transaction>2023/01/07 12:38:07.000.511,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\database\Chinook.db</Transaction>
     <Transaction>2023/01/07 13:13:00.000.484,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:15:35.000.003,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Resource\LoadingPage.Model.Resource.Interfaces.pas</Transaction>
+    <Transaction>2023/01/07 13:15:35.000.003,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Resource\LoadingPage.Model.Resource.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
     <Transaction>2023/01/07 13:18:54.000.300,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:19:56.000.193,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Resource\LoadingPage.Model.Resource.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 13:19:56.000.193,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Resource\LoadingPage.Model.Resource.Interfaces.pas</Transaction>
     <Transaction>2023/01/07 13:26:26.000.963,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:26:45.000.963,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Model.Conexao.Interfaces.pas</Transaction>
+    <Transaction>2023/01/07 13:26:45.000.963,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Model.Conexao.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
     <Transaction>2023/01/07 13:33:04.000.239,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
     <Transaction>2023/01/07 13:37:36.000.858,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\LoadingPage.Model.Conexao.Interfaces.pas</Transaction>
-    <Transaction>2023/01/07 13:39:30.196,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:41:02.940,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\LoadingPage.Model.Conexao.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:51:48.032,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 13:52:27.448,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.ConexaoFiredac.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:00:44.079,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:01:06.688,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.QueryFiredac.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:08:54.576,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:11:30.702,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.ConexaoFactory.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:22:54.638,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:23:38.365,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\LoadingPage.Model.Entidade.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:28:33.173,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:29:23.269,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Musica.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:40:30.317,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:41:03.612,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:53:21.999,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-    <Transaction>2023/01/07 14:53:54.517,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Controller\LoadingPage.Controller.EntidadeController.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2023/01/07 13:39:30.000.196,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 13:41:02.000.940,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\LoadingPage.Model.Conexao.Interfaces.pas</Transaction>
+    <Transaction>2023/01/07 13:51:48.000.032,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 13:52:27.000.448,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.ConexaoFiredac.pas</Transaction>
+    <Transaction>2023/01/07 14:00:44.000.079,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:01:06.000.688,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.QueryFiredac.pas</Transaction>
+    <Transaction>2023/01/07 14:08:54.000.576,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:11:30.000.702,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.ConexaoFactory.pas</Transaction>
+    <Transaction>2023/01/07 14:22:54.000.638,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:23:38.000.365,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\LoadingPage.Model.Entidade.Interfaces.pas</Transaction>
+    <Transaction>2023/01/07 14:28:33.000.173,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:29:23.000.269,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Musica.pas</Transaction>
+    <Transaction>2023/01/07 14:40:30.000.317,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:41:03.000.612,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas</Transaction>
+    <Transaction>2023/01/07 14:53:21.000.999,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:53:54.000.517,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Controller\LoadingPage.Controller.EntidadeController.pas</Transaction>
+    <Transaction>2023/01/07 14:56:11.807,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:56:36.698,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:56:51.841,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 14:57:29.334,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="database"/>
     <File Path="database\Chinook.db"/>
     <File Path="src"/>
+    <File Path="src\Controller"/>
+    <File Path="src\Controller\Impl"/>
+    <File Path="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas"/>
+    <File Path="src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas"/>
     <File Path="src\Model"/>
     <File Path="src\Model\Conexao"/>
     <File Path="src\Model\Conexao\Impl"/>
@@ -42,14 +51,12 @@
     <File Path="src\Model\Conexao\Impl\LoadingPage.Model.Conexao.Impl.ConexaoFactory.pas"/>
     <File Path="src\Model\Conexao\LoadingPage.Model.Conexao.Interfaces.pas"/>
     <File Path="src\Model\Entidade"/>
-    <File Path="src\Model\Entidade\LoadingPage.Model.Entidade.Interfaces.pas"/>
     <File Path="src\Model\Entidade\Impl"/>
     <File Path="src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Musica.pas"/>
     <File Path="src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas"/>
+    <File Path="src\Model\Entidade\LoadingPage.Model.Entidade.Interfaces.pas"/>
     <File Path="src\View"/>
     <File Path="src\View\LoadingPage.View.FormPrincipal.pas"/>
     <File Path="src\View\LoadingPage.View.FormPrincipal.dfm"/>
-    <File Path="src\Controller"/>
-    <File Path="src\Controller\LoadingPage.Controller.EntidadeController.pas"/>
   </ProjectSortOrder>
 </BorlandProject>

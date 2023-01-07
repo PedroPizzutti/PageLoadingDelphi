@@ -11,6 +11,7 @@ object FormPrincipal: TFormPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object pnlGrid: TPanel
@@ -21,12 +22,13 @@ object FormPrincipal: TFormPrincipal
     Align = alClient
     Caption = 'pnlGrid'
     TabOrder = 0
-    object grdMusicas: TDBGrid
+    object DBGrid1: TDBGrid
       Left = 1
       Top = 1
       Width = 883
       Height = 240
       Align = alClient
+      DataSource = dsMusicas
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
@@ -49,6 +51,11 @@ object FormPrincipal: TFormPrincipal
       Height = 43
       Caption = 'Carregar M'#250'sicas'
       TabOrder = 0
+      OnClick = btnCarregaMusicasClick
     end
+  end
+  object dsMusicas: TDataSource
+    Left = 48
+    Top = 16
   end
 end
