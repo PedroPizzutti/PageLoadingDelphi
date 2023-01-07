@@ -113,8 +113,18 @@
             <Form>$R *.res</Form>
         </DCCReference>
         <DCCReference Include="src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas"/>
-        <DCCReference Include="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas"/>
+        <DCCReference Include="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas">
+            <Form>$R *.res</Form>
+        </DCCReference>
+        <DCCReference Include="src\View\LoadingPage.View.LoadingForm.pas">
+            <Form>FormLoadGif</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <None Include="database\Chinook.db"/>
+        <RcItem Include="resource\loading.gif">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>GifImage_1</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -137,6 +147,12 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="resource\loading.gif" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Debug\LoadingPage.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>LoadingPage.exe</RemoteName>

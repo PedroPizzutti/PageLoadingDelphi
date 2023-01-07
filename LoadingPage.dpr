@@ -1,5 +1,7 @@
 program LoadingPage;
 
+{$R *.dres}
+
 uses
   Vcl.Forms,
   LoadingPage.View.FormPrincipal in 'src\View\LoadingPage.View.FormPrincipal.pas' {FormPrincipal},
@@ -11,7 +13,8 @@ uses
   LoadingPage.Model.Entidade.Impl.Musica in 'src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Musica.pas',
   LoadingPage.Model.Entidade.Impl.Factory in 'src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas',
   LoadingPage.Controller.EntidadeController.Interfaces in 'src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas',
-  LoadingPage.Controller.Impl.EntidadeController in 'src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas';
+  LoadingPage.Controller.Impl.EntidadeController in 'src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas',
+  LoadingPage.View.LoadingForm in 'src\View\LoadingPage.View.LoadingForm.pas' {FormLoadGif};
 
 {$R *.res}
 

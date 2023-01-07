@@ -24,7 +24,7 @@ type
     pnlTopo: TPanel;
     btnCarregaMusicas: TButton;
     dsMusicas: TDataSource;
-    DBGrid1: TDBGrid;
+    gridMusicas: TDBGrid;
     procedure FormCreate(Sender: TObject);
     procedure btnCarregaMusicasClick(Sender: TObject);
   private
@@ -40,7 +40,8 @@ var
 implementation
 
 uses
-  LoadingPage.Controller.Impl.EntidadeController;
+  LoadingPage.Controller.Impl.EntidadeController,
+  LoadingPage.View.LoadingForm;
 
 {$R *.dfm}
 
