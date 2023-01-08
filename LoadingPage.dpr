@@ -14,7 +14,9 @@ uses
   LoadingPage.Model.Entidade.Impl.Factory in 'src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas',
   LoadingPage.Controller.EntidadeController.Interfaces in 'src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas',
   LoadingPage.Controller.Impl.EntidadeController in 'src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas',
-  LoadingPage.View.LoadingForm in 'src\View\LoadingPage.View.LoadingForm.pas' {FormLoadGif};
+  LoadingPage.View.LoadingForm in 'src\View\LoadingPage.View.LoadingForm.pas' {FormLoadGif},
+  LoadingPage.Model.Servico.Interfaces in 'src\Model\Serviço\LoadingPage.Model.Servico.Interfaces.pas',
+  LoadingPage.Model.Servico.Impl.Tarefa in 'src\Model\Serviço\Impl\LoadingPage.Model.Servico.Impl.Tarefa.pas';
 
 {$R *.res}
 
@@ -22,6 +24,7 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
+  ReportMemoryLeaksOnShutdown := True;
   Application.Run;
 
 end.

@@ -3,8 +3,8 @@ object FormLoadGif: TFormLoadGif
   Top = 0
   BorderStyle = bsNone
   Caption = 'FormLoadGif'
-  ClientHeight = 95
-  ClientWidth = 103
+  ClientHeight = 59
+  ClientWidth = 58
   Color = clFuchsia
   TransparentColor = True
   TransparentColorValue = clFuchsia
@@ -20,9 +20,9 @@ object FormLoadGif: TFormLoadGif
   TextHeight = 13
   object imgLoadGif: TImage
     Left = 0
-    Top = 0
-    Width = 104
-    Height = 97
+    Top = -2
+    Width = 57
+    Height = 59
     Picture.Data = {
       0954474946496D616765474946383961C800C800F70000000000180C091C0D0A
       1C0D0A1C0D0A1C0D0A1D0E0B1D0E0B1D0E0B1D0E0B1D0E0B1D0E0B1D0E0B1D0E

@@ -110,16 +110,20 @@
         <DCCReference Include="src\Model\Entidade\LoadingPage.Model.Entidade.Interfaces.pas"/>
         <DCCReference Include="src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Musica.pas"/>
         <DCCReference Include="src\Model\Entidade\Impl\LoadingPage.Model.Entidade.Impl.Factory.pas">
-            <Form>$R *.res</Form>
+            <Form>,
+  LoadingPage.Controller.EntidadeController.Interfaces in &apos;src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas&apos;,
+  LoadingPage.Controller.Impl.EntidadeController in &apos;src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas&apos; {$R *.res</Form>
         </DCCReference>
         <DCCReference Include="src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas"/>
         <DCCReference Include="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas">
-            <Form>$R *.res</Form>
+            <Form>,
+  LoadingPage.View.LoadingForm in &apos;src\View\LoadingPage.View.LoadingForm.pas&apos; {FormLoadGif</Form>
         </DCCReference>
         <DCCReference Include="src\View\LoadingPage.View.LoadingForm.pas">
             <Form>FormLoadGif</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="src\Model\Serviço\LoadingPage.Model.Servico.Interfaces.pas"/>
+        <DCCReference Include="src\Model\Serviço\Impl\LoadingPage.Model.Servico.Impl.Tarefa.pas"/>
         <None Include="database\Chinook.db"/>
         <RcItem Include="resource\loading.gif">
             <ResourceType>RCDATA</ResourceType>

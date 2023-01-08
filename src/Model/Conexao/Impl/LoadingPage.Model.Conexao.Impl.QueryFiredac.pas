@@ -54,6 +54,7 @@ end;
 function TModelFiredacQuery.Open(aSQL: String): iModelQuery;
 begin
   Result := Self;
+  FQuery.Close;
   FQuery.Open(aSQL);
 end;
 
