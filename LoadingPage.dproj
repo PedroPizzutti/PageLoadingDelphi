@@ -124,6 +124,7 @@
         </DCCReference>
         <DCCReference Include="src\Model\Serviço\LoadingPage.Model.Servico.Interfaces.pas"/>
         <DCCReference Include="src\Model\Serviço\Impl\LoadingPage.Model.Servico.Impl.Tarefa.pas"/>
+        <DCCReference Include="src\Controller\Impl\LoadingPage.Controller.Impl.Tarefa.pas"/>
         <None Include="database\Chinook.db"/>
         <RcItem Include="resource\loading.gif">
             <ResourceType>RCDATA</ResourceType>

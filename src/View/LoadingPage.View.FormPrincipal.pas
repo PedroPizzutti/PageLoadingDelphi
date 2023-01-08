@@ -28,19 +28,17 @@ type
     btnCarregaMusicas: TButton;
     dsMusicas: TDataSource;
     gridMusicas: TDBGrid;
+    lblTexto: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure btnCarregaMusicasClick(Sender: TObject);
   private
     { Private declarations }
-    FController: iControllerEntidade;
-    FFormLoading: TFormLoadGif;
-    AllTasks: Array of ITask;
-
-    procedure CriaTarefa(aProcedure: TProc);
-    procedure ExecutaTarefas(aTarefas: Array of ITask);
-    procedure EsperaTarefas;
+    FControllerEntidade: iControllerEntidade;
+    FControllerTarefa:  iControllerTarefa;
 
     procedure BuscaMusicas;
+    procedure ImprimeMensagem;
+    procedure AlteraLabel;
   public
     { Public declarations }
   end;
@@ -51,76 +49,62 @@ var
 implementation
 
 uses
-  LoadingPage.Controller.Impl.EntidadeController;
+  LoadingPage.Controller.Impl.EntidadeController,
+  LoadingPage.Controller.Impl.Tarefa;
 
 {$R *.dfm}
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
-  FController := TControllerEntidade.New;
+  FControllerEntidade := TControllerEntidade.New;
+  FControllerTarefa := TControllerTarefa.New;
+end;
+
+procedure TFormPrincipal.ImprimeMensagem;
+begin
+  Sleep(1000);
+  TThread.Synchronize(nil,
+    procedure
+    begin
+      ShowMessage('Oi, eu sou uma tarefa em paralelo!!!');
+    end);
+end;
+
+procedure TFormPrincipal.AlteraLabel;
+begin
+  Sleep(3000);
+  TThread.Synchronize(nil,
+    procedure
+    begin
+      lblTexto.Caption := 'Oi, outra tarefa em paralelo!!'
+    end);
 end;
 
 procedure TFormPrincipal.btnCarregaMusicasClick(Sender: TObject);
 begin
-  CriaTarefa(BuscaMusicas);
-  ExecutaTarefas(AllTasks);
-  EsperaTarefas;
-end;
-
-procedure TFormPrincipal.ExecutaTarefas(aTarefas: Array of ITask);
-var
-  I: Integer;
-begin
-  for I := Low(aTarefas) to High(aTarefas) do
-  begin
-    aTarefas[I].Start;
-  end;
+  FControllerTarefa
+    .Tarefa
+      .CriaTarefa(ImprimeMensagem)
+      .CriaTarefa(BuscaMusicas)
+      .CriaTarefa(AlteraLabel)
+      .ExecutaTarefas
+      .EsperaTarefas;
 end;
 
 procedure TFormPrincipal.BuscaMusicas;
 begin
-  if Assigned(gridMusicas.DataSource.DataSet) then
-    gridMusicas.DataSource.DataSet.Close;
-
-  Sleep(3000);
-
+  Sleep(5000);
   TThread.Synchronize(nil,
     procedure
     begin
-      FController
+      if Assigned(gridMusicas.DataSource.DataSet) then
+        gridMusicas.DataSource.DataSet.Close;
+
+      FControllerEntidade
         .Entidade
-        .Musica
-        .DataSet(dsMusicas)
-        .Open;
-    end);
-end;
-
-procedure TFormPrincipal.CriaTarefa(aProcedure: TProc);
-begin
-  SetLength(AllTasks, 1);
-  AllTasks[High(AllTasks)] := TTask.Create(aProcedure);
-end;
-
-procedure TFormPrincipal.EsperaTarefas;
-begin
-   TTask.Run(
-    procedure
-    begin
-       TThread.Synchronize(TThread.CurrentThread,
-        procedure
-        begin
-          FFormLoading := TFormLoadGif.Create(nil);
-          FFormLoading.Show;
-        end);
-
-      TTask.WaitForAll(AllTasks);
-
-      TThread.Queue(TThread.CurrentThread,
-        procedure
-        begin
-          FFormLoading.Close;
-          FFormLoading.DisposeOf;
-        end);
+          .Musica
+          .DataSet(dsMusicas)
+          .Open;
     end);
 end;
 

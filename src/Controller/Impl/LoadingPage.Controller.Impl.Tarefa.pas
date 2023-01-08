@@ -7,7 +7,7 @@ uses
   LoadingPage.Model.Servico.Interfaces;
 
 type
-  TTarefaController = class(TInterfacedObject, iControllerTarefa)
+  TControllerTarefa = class(TInterfacedObject, iControllerTarefa)
     private
       FTarefa: iTarefa;
     public
@@ -23,25 +23,25 @@ implementation
 uses
   LoadingPage.Model.Servico.Impl.Tarefa;
 
-{ TTarefaController }
+{ TControllerTarefa }
 
-constructor TTarefaController.Create;
+constructor TControllerTarefa.Create;
 begin
   FTarefa := TTarefa.New;
 end;
 
-destructor TTarefaController.Destroy;
+destructor TControllerTarefa.Destroy;
 begin
 
   inherited;
 end;
 
-class function TTarefaController.New: iControllerTarefa;
+class function TControllerTarefa.New: iControllerTarefa;
 begin
   Result := Self.Create;
 end;
 
-function TTarefaController.Tarefa: iTarefa;
+function TControllerTarefa.Tarefa: iTarefa;
 begin
   Result := FTarefa;
 end;

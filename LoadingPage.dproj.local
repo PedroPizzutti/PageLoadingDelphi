@@ -44,6 +44,8 @@
     <Transaction>2023/01/08 14:05:38.390,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Serviço\LoadingPage.Model.Servico.Interfaces.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
     <Transaction>2023/01/08 14:08:53.684,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
     <Transaction>2023/01/08 14:09:25.147,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Model\Serviço\Impl\LoadingPage.Model.Servico.Impl.Tarefa.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/08 14:30:31.818,=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
+    <Transaction>2023/01/08 14:31:04.395,D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\src\Controller\Impl\LoadingPage.Controller.Impl.Tarefa.pas=D:\Meus Documentos\Documentos\Fontes\MeusProjetos\loading_page_delphi\Unit1.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="database"/>
@@ -54,6 +56,7 @@
     <File Path="src\Controller"/>
     <File Path="src\Controller\Impl"/>
     <File Path="src\Controller\Impl\LoadingPage.Controller.Impl.EntidadeController.pas"/>
+    <File Path="src\Controller\Impl\LoadingPage.Controller.Impl.Tarefa.pas"/>
     <File Path="src\Controller\LoadingPage.Controller.EntidadeController.Interfaces.pas"/>
     <File Path="src\Model"/>
     <File Path="src\Model\Conexao"/>

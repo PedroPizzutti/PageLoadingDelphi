@@ -85,9 +85,22 @@ object FormPrincipal: TFormPrincipal
     Height = 57
     Align = alTop
     TabOrder = 1
+    ExplicitTop = -5
+    object lblTexto: TLabel
+      Left = 16
+      Top = 12
+      Width = 385
+      Height = 25
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
     object btnCarregaMusicas: TButton
       Left = 424
-      Top = 8
+      Top = 9
       Width = 233
       Height = 43
       Caption = 'Carregar M'#250'sicas'
@@ -96,7 +109,7 @@ object FormPrincipal: TFormPrincipal
     end
   end
   object dsMusicas: TDataSource
-    Left = 48
-    Top = 16
+    Left = 368
+    Top = 152
   end
 end

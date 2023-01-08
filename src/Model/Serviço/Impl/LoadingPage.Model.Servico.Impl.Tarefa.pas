@@ -13,6 +13,7 @@ type
     private
       FTarefas: Array of ITask;
       FFormLoading: TFormLoadGif;
+      FTamanhoArray: Integer;
     public
       constructor Create;
       destructor Destroy; override;
@@ -32,49 +33,54 @@ uses
 
 constructor TTarefa.Create;
 begin
-
+  FTamanhoArray := 1;
 end;
 
 function TTarefa.CriaTarefa(aProcedure: TProc): iTarefa;
 begin
-  SetLength(FTarefas, 1);
+  Result := Self;
+  SetLength(FTarefas, FTamanhoArray);
   FTarefas[High(FTarefas)] := TTask.Create(aProcedure);
+  Inc(FTamanhoArray);
 end;
 
 destructor TTarefa.Destroy;
 begin
-
   inherited;
 end;
 
 function TTarefa.EsperaTarefas: iTarefa;
 begin
+  Result := Self;
   TTask.Run(
-    procedure
-    begin
-      TThread.Synchronize(TThread.CurrentThread,
+  procedure
+  begin
+    TThread.Synchronize(TThread.CurrentThread,
+      procedure
+      begin
+        FFormLoading := TFormLoadGif.Create(nil);
+        FFormLoading.Show;
+      end);
+
+      TTask.WaitForAll(FTarefas);
+
+      TThread.Queue(TThread.CurrentThread,
         procedure
         begin
-          FFormLoading := TFormLoadGif.Create(nil);
-          FFormLoading.Show;
+          FFormLoading.Close;
+          FFormLoading.DisposeOf;
         end);
 
-        TTask.WaitForAll(FTarefas);
-
-        TThread.Queue(TThread.CurrentThread,
-          procedure
-          begin
-            FFormLoading.Close;
-            FFormLoading.DisposeOf;
-          end);
-    end);
-
+    Finalize(FTarefas);
+    FTamanhoArray := 1;
+  end);
 end;
 
 function TTarefa.ExecutaTarefas: iTarefa;
 var
   I: Integer;
 begin
+  Result := Self;
   for I := Low(FTarefas) to High(FTarefas) do
     FTarefas[I].Start;
 end;
